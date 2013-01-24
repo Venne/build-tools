@@ -1,0 +1,61 @@
+{
+	"packages": {
+		"base": {
+			"name": "VenneCMS",
+			"version": "2.0.0",
+			"status": "dev",
+			"type": "cms"
+		},
+		"all": {
+			"name": "VenneCMS-full",
+			"version": "2.0.0",
+			"status": "dev",
+			"type": "cms",
+			"modules": {
+				"venne/ckeditor-module": "2.0.x@dev",
+				"venne/blog-module": "2.0.x@dev",
+				"venne/gallery-module": "2.0.x@dev",
+				"venne/lightbox-module": "2.0.x@dev",
+				"venne/guestbook-module": "2.0.x@dev",
+				"venne/mailform-module": "2.0.x@dev",
+				"venne/social-module": "2.0.x@dev"
+			}
+		},
+		"venne/mailform-module:2.0.x-dev": {
+			"name": "mailform-module",
+			"version": "2.0.0",
+			"status": "dev",
+			"type": "module"
+		},
+		"venne/social-module:2.0.x-dev": {
+			"name": "social-module",
+			"version": "2.0.0",
+			"status": "dev",
+			"type": "module"
+		},
+		"venne/guestbook-module:2.0.x-dev": {
+			"name": "guestbook-module",
+			"version": "2.0.0",
+			"status": "dev",
+			"type": "module"
+		},
+		"venne/gallery-module:2.0.x-dev": {
+			"name": "gallery-module",
+			"version": "2.0.0",
+			"status": "dev",
+			"type": "module"
+		},
+		"venne/blog-module:2.0.x-dev": {
+			"name": "blog-module",
+			"version": "2.0.0",
+			"status": "dev",
+			"type": "module"
+		},
+		"venne/ckeditor-module:2.0.x-dev": {
+			"name": "ckeditor-module",
+			"version": "2.0.0",
+			"status": "dev",
+			"type": "module"
+		}
+	}
+} 
